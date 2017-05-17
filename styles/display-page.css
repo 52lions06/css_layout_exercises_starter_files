@@ -1,51 +1,42 @@
 main {
-  font-size: 0;
+  font-size: 0px;
 }
 
-
-.box-parent {
+.container {
+  width: 800px;
   margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
 }
 
-.box {
-  border: 1px solid black;
+.half-color {
+  width: 50%;
+  height: 200px;
   display: inline-block;
 }
 
-.box_half {
-  width: 50%;
-  height: 200px;
-}
-
-.box_third {
+.third-color {
   width: 33.33%;
   height: 300px;
-}
-
-.black {
-  background-color: black;
-  border: 1px solid;
+  display: inline-block;
 }
 
 .green {
   background-color: green;
 }
 
-.grey {
-  background-color: grey;
-}
-
 .blue {
   background-color: blue;
 }
 
-.orange {
-  background-color: orange
+.gray {
+  background-color: gray;
 }
 
-.centered {
-  text-align: center;
+.black {
+  background-color: black;
+}
+
+.orange {
+  background-color: orange;
 }
