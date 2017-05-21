@@ -1,77 +1,61 @@
-.container {
-	padding-left: 60px;
-	padding-right: 60px;
-}
-
 nav {
+	border: 1px solid black;
+	padding-right: 60px;
+	padding-left: 60px;
 	background-color: gray;
 	text-align: left;
-	height: 60px;
-	position: absolute;
+	padding-bottom: 5px;
+	margin-bottom: 90px;
 }
-
-nav .cat {
-	left: 10px;
-	width: 50px;
-	height: 50px;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	border-radius: 50%;
-	vertical-align: middle;
-	border: 1px solid black;
-}
-
-nav ul {
-	display: inline-block;
-	list-style: none;
-}
-
-nav li {
-	display: inline-block;
-}
-
-nav li::after {
-	content: "|";
-	margin-left: 5px;
-}
-
-nav a:hover {
-	color: black;
-}
-
 
 body {
-	background: url(images/outerspace_landscape.jpeg) no-repeat;
+	background: url("images/outerspace_landscape.jpeg");     
+	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-main {
-	padding-top: 90px;
-	min-width: 100px;
+.logo {
+	position: absolute;
+	left: 30px;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+}
+
+ul li {
+	padding-left: 30px;
+}
+
+li {
+	display: inline;
+}
+
+li:after {
+	content:"|";
+	padding: 5px;
 }
 
 .box {
-	margin-top: 150px;
-	border: 10px green dotted;
+	border: 5px dotted green;
 	width: 600px;
 	height: 300px;
-	margin-left: auto;
 	margin-right: auto;
+	margin-left: auto;
 }
 
-..spacecat, .spacedog {
-	position: absolute;
-	width:200px;
+.space {
+	width: 200px;
 	height: 200px;
-
 }
 
-.spacecat {
-  top: -90px;
-  left: -90px;
+.space .cat {
+	position: absolute;
+	left: 300px;
+	top: 200px;
 }
 
-.spacedog {
-  bottom: -120px;
-  right: -60px;
+.space .dog {
+	position: absolute;
+	right: 300px;
 }
